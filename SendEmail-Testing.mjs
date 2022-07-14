@@ -39,11 +39,11 @@ var mailOptions = {
                         <tr><td><img src="https://raw.githubusercontent.com/Ignaciooleac/Asistencia-Emails/main/images/Header-NuevaCuenta.png" alt="images" style="width: 15rem;"></td></tr>
                         <tr style="font-family: 'Inter', sans-serif;">
                           <td>
-                            <h1 style="padding-top:18px;font-size:16px !important;font-weight:700;line-height:24px;color:#242527;margin:0 0 8px 0;">
+                            <h1 style="padding-top:18px;font-size:20px;font-weight:700;line-height:24px;color:#242527;margin:0 0 8px 0;">
                               ¡Tu Cuenta ha sido Creada!
                             </h1>
                             <hr style="border-top: 5px solid #FFA800;border-radius: 5px;width:33%;">
-                            <p style="margin-top:25px;">
+                            <p style="font-size:16px !important;margin-top:25px;">
                               <p>Hola <span style="font-weight: bold;">$Nombre</span></p>
                               <p>Enviamos tus credenciales para acceder a la platafoma.</p>
                               <ul style=" list-style-type: none;padding: 15px;line-height: 0;">
