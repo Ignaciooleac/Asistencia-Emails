@@ -33,19 +33,19 @@ var mailOptions = {
                   </td>
                 </tr>
                 <tr>
-                  <td style="padding:36px 1rem 42px 1rem;background:#FFFFFF;border-radius:12px">
+                  <td style="padding:36px 5rem 42px 5rem;background:#FFFFFF;border-radius:12px">
                     <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0; text-align:center;">
                       <tbody>
-                        <tr><td><img src="images/Header-NuevaCuenta.png" alt="images" style="width: 15rem;"></td></tr>
+                        <tr><td><img src="https://raw.githubusercontent.com/Ignaciooleac/Asistencia-Emails/main/images/Header-NuevaCuenta.png" alt="images" style="width: 15rem;"></td></tr>
                         <tr style="font-family: 'Inter', sans-serif;">
                           <td>
-                            <h1 style="padding-top:18px;font-size:20px;font-weight:700;line-height:24px;color:#242527;margin:0 0 8px 0;">
+                            <h1 style="padding-top:18px;font-size:16px !important;font-weight:700;line-height:24px;color:#242527;margin:0 0 8px 0;">
                               ¡Tu Cuenta ha sido Creada!
                             </h1>
-                            <hr style="border-top: 5px solid #FFA800;border-radius: 5px;width:25%;">
-                            <p style="font-size:16px;margin-top:25px;">
+                            <hr style="border-top: 5px solid #FFA800;border-radius: 5px;width:33%;">
+                            <p style="margin-top:25px;">
                               <p>Hola <span style="font-weight: bold;">$Nombre</span></p>
-                              <p>Este es el contenido del mensaje, cambiar según correo que se envie</p>
+                              <p>Enviamos tus credenciales para acceder a la platafoma.</p>
                               <ul style=" list-style-type: none;padding: 15px;line-height: 0;">
                                 <li><p><span style="font-weight: bold; padding-right:10px;">Usuario:</span><span>$Nombre de Usuario</span></p></li>
                                 <li><p><span style="font-weight: bold; padding-right:10px;">Contraseña:</span><span>$Contraseña</span></p></li>
@@ -74,29 +74,29 @@ var mailOptions = {
                   <td style="padding:20px;background:#FAFBFD;border-radius:12px;">
                     <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;font-size:9px;font-family:'Inter',sans-serif;">
                       <tbody>
-                        <tr style="display:flex;justify-content:center;margin-bottom:10px">
+                        <tr style="align-content: center;">
                           <td>
                             <a href="http://www.buk.#{domain}">
                               <!-- <%= email_image_tag logo, size: '81x62', skip_pipeline: true %> -->
-                              <img src="images/LogoAsistencia.png" alt="Buk Asistencia" style="width: 5rem;">
+                              <img src="https://raw.githubusercontent.com/Ignaciooleac/Asistencia-Emails/main/images/LogoAsistencia.png" alt="Buk Asistencia" style="width: 5rem;">
                             </a>
                           </td>
                         </tr>
                         
-                        <tr style="display:flex;justify-content:center;margin-bottom:6px">
+                        <tr style="display:inline;margin-bottom:6px;align-content: center;">
                           <td style="width:28px;">
                             <a href="https://www.linkedin.com/company/buk-cl">
-                              <img src="images/rrss-linkedin.png" alt="linkedin" style="width:100%">
+                              <img src="https://raw.githubusercontent.com/Ignaciooleac/Asistencia-Emails/main/images/rrss-linkedin.png" alt="linkedin" style="width:100%">
                             </a>
                           </td>
                           <td style="padding:0 0 0 10px;width:28px;">
                             <a href="https://www.facebook.com/bukRRHH">
-                              <img src="images/rrss-facebook.png" alt="facebook" style="width:100%">
+                              <img src="https://raw.githubusercontent.com/Ignaciooleac/Asistencia-Emails/main/images/rrss-facebook.png" alt="facebook" style="width:100%">
                             </a>
                           </td>
                           <td style="padding:0 0 0 10px;width:28px;">
                             <a href="https://www.instagram.com/buk_rrhh">
-                             <img src="images/rrss-instagram.png" alt="instagram" style="width:100%">
+                             <img src="https://raw.githubusercontent.com/Ignaciooleac/Asistencia-Emails/main/images/rrss-instagram.png" alt="instagram" style="width:100%">
                             </a>
                           </td>
                         </tr>
