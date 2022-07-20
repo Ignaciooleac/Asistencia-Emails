@@ -13,10 +13,11 @@ var mailOptions = {
   to: "ignacio.olea.c@gmail.com",
   subject: "Clave de Acceso Buk Asistencia",
   text: ``,
-  html: `<style>
+  html: `
+  <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@400;600&display=swap');
   </style>
-<body bgcolor="#f7f7f7">
+  <body bgcolor="#f7f7f7">
     <table align="center" cellpadding="0" cellspacing="0"
            class="container-for-gmail-android" width="100%"
            style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#D9E2F9;border-radius:12px;">
@@ -33,17 +34,17 @@ var mailOptions = {
                   </td>
                 </tr>
                 <tr>
-                  <td style="padding:36px 5rem 42px 5rem;background:#FFFFFF;border-radius:12px">
+                  <td style="padding:36px 5rem 42px 5rem;background:#fafbfd;border-radius:12px">
                     <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0; text-align:center;">
                       <tbody>
-                        <tr><td><img src="https://raw.githubusercontent.com/Ignaciooleac/Asistencia-Emails/main/images/Header-NuevaCuenta.png" alt="images" style="width: 15rem;"></td></tr>
+                        <tr><td><img src="https://raw.githubusercontent.com/Ignaciooleac/Asistencia-Emails/main/images/Header-NuevaCuenta.png" alt="images" style="width: 100px;height: auto"></td></tr>
                         <tr style="font-family: 'Inter', sans-serif;">
-                          <td>
+                          <td style="font-size:12pt">
                             <h1 style="padding-top:18px;font-size:20px;font-weight:700;line-height:24px;color:#242527;margin:0 0 8px 0;">
                               ¡Tu Cuenta ha sido Creada!
                             </h1>
                             <hr style="border-top: 5px solid #FFA800;border-radius: 5px;width:33%;">
-                            <p style="font-size:16px !important;margin-top:25px;">
+                            <p style="margin-top:25px;">
                               <p>Hola <span style="font-weight: bold;">$Nombre</span></p>
                               <p>Enviamos tus credenciales para acceder a la platafoma.</p>
                               <ul style=" list-style-type: none;padding: 15px;line-height: 0;">
@@ -52,9 +53,14 @@ var mailOptions = {
                               </ul>
                               <tr style="font-family: 'Inter', sans-serif;">
                                 <td>
-                                  <a href="<%= yield :link %>" style="background-color:#2F4DAA;padding:8px 16px;border-radius:4px;color:#FAFBFD; text-decoration:none;">
+                                  <a href="<%= yield :link %>" style="background-color:#2F4DAA;padding:8px 16px;border-radius:4px;color:#FAFBFD; text-decoration:none;font-size:12pt;">
                                 Ingresar
                                 </a>
+                              </td>
+                            </tr>
+                            <tr style="font-family: 'Inter', sans-serif;">
+                                <td>
+                                  <p style="font-weight: 300;padding-top: 15px;font-size:10px">Dentro de la plataforma, recomendamos personalizar la clave, haciendo click en el ícono ubicado en el extremo superior derecho a un costado de "soporte".  </p>
                               </td>
                             </tr>
                           </td>
@@ -71,7 +77,7 @@ var mailOptions = {
                   </td>
                 </tr>
                 <tr>
-                  <td style="padding:20px;background:#FAFBFD;border-radius:12px;">
+                  <td style="padding:20px;background:#FFFFFF;border-radius:12px;">
                     <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;font-size:9px;font-family:'Inter',sans-serif;">
                       <tbody>
                         <tr style="align-content: center;">
